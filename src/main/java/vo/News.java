@@ -10,8 +10,8 @@ public class News {
 	private String newsName;
 	private String newsTitle;
 	private String newsContent;
-	private Date createdDate;
-	private Date updatedDate;
+	private Date newsCreatedDate;
+	private Date newsUpdatedDate;
 	
 	public News () {}
 
@@ -63,21 +63,23 @@ public class News {
 		this.newsContent = newsContent;
 	}
 
-	public Date getCreatedDate() {
-		return createdDate;
+	public Date getNewsCreatedDate() {
+		return newsCreatedDate;
 	}
 
-	public void setCreatedDate(Date createdDate) {
-		this.createdDate = createdDate;
+	public void setNewsCreatedDate(Date newsCreatedDate) {
+		this.newsCreatedDate = newsCreatedDate;
 	}
 
-	public Date getUpdatedDate() {
-		return updatedDate;
+	public Date getNewsUpdatedDate() {
+		return newsUpdatedDate;
 	}
 
-	public void setUpdatedDate(Date updatedDate) {
-		this.updatedDate = updatedDate;
+	public void setNewsUpdatedDate(Date newsUpdatedDate) {
+		this.newsUpdatedDate = newsUpdatedDate;
 	}
+
+	
 	
 	
 	
